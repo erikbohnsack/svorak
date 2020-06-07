@@ -46,7 +46,7 @@ xkb_symbols "svorak_a6" {
 	key <AB04> { [ k,          K,          grave,              none ] };
 	key <AB05> { [ x,          X,          acute,           none ] };
 	key <AB06> { [ b,          B,          apostrophe,             none ] };
-	key <AB07> { [ m,          M,          leftdoublequotemark,               none ] };
+	key <AB07> { [ m,          M,          quotedbl,               none ] };
 	key <AB08> { [ w,          W,          none,             none ] };
 	key <AB09> { [ v,          V,          none, none ] };
 	key <AB10> { [ z,          Z,          none,       none ] };
