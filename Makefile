@@ -1,6 +1,9 @@
-.PHONY: set-svorak
-set-svorak: /usr/share/x11/xkb/symbols
-	cat svorak_a5 >> /usr/share/x11/xkb/symbols/se
+all: \
+	set-svorak
 
-/usr/share/x11/xkb/symbols:
-	mkdir -p $@
+set-svorak: 
+	cat svorak_a6 >> /usr/share/X11/xkb/symbols/se
+
+.PHONY: svorak
+svorak: set-svorak
+	setxkbmap se svorak_a6 -option ctrl:nocaps
